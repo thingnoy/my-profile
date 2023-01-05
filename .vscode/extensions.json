@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "vue.volar",
+    "wayou.vscode-todo-highlight",
+
+    "rohit-gohri.format-code-action",
+    "yzhang.markdown-all-in-one",
+
+    "bradlc.vscode-tailwindcss",
+    "christian-kohler.path-intellisense",
+
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+
+    "eamodio.gitlens",
+    "mhutchie.git-graph"
+  ],
+  "unwantedRecommendations": [
+    "octref.vetur",
+    "hookyqr.beautify",
+    "dbaeumer.jshint",
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ]
+}

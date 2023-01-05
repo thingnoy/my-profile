@@ -1,0 +1,35 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "markdown.extension.toc.slugifyMode": "vscode",
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.codeActionsOnSave": [
+      "source.formatDocument",
+      "source.organizeImports",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.formatDocument",
+      // "source.organizeImports",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.codeActionsOnSave": ["source.formatDocument"]
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "nuxt.isNuxtApp": false
+}
